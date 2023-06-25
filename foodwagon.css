@@ -131,3 +131,91 @@ header .profil .login{
 .imagebase img{
     width: 250px;
 }
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.wrap .soldfood{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.wrap .soldfood .food{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.wrap .soldfood .food .foodimg{
+    background-image: url(images/Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+}
+.foodimg .percent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    background: var(--theme-primary, #FFB30E);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    padding: 10px 5px;
+}
+.percent .num{
+    font-size: 50px;
+}
+.percent .type{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.fooddescription{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.fooddescription h1{
+    color: #424242;
+}
+.fooddescription .availablity{
+    padding: 8px 15px;
+    background: rgba(241, 114, 40, 0.10);
+    color: #F17228;
+    border-radius: 7px;
+    width: 50%;
+}
+.fonctioning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px 60px 0px;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0.00) 100%);
+}
+.fonctioning h1 strong{
+    color: #F17228;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 50px;
+}
+.features .features_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
