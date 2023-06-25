@@ -1,0 +1,133 @@
+*{
+    outline: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background: white;
+    padding: 16px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ionicons{
+    color: #FFB30E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .logo img{
+    width: 200px;
+}
+header .location ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header .profil, .search, .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search input{
+    border: none;
+    width: 50px;
+}
+header .profil{
+    gap: 30px;
+}
+header .profil .login{
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    cursor: pointer;
+}
+.subnav{
+    background-image: url(images/Group\ 1\ 1.png);
+    height: 300px;
+    width: 100%;
+    display: grid;
+    justify-content: initial;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.subnav .subnav_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.subnav .subnav_item h1{
+    color: white;
+}
+.subnav .subnav_item .card{
+    height: 100px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.subnav .subnav_item .title {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-direction: column;
+}
+.subnav .subnav_item .title h1 strong{
+    font-size: 40px;
+}
+.card .topcard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50%;
+    padding: 0px 25px;
+}
+.card .topcard .delivery, .pickup{
+    display: flex;
+    border-radius: 8px;
+}
+.card .topcard .delivery{
+    padding: 5px 15px;
+    background: rgba(241, 114, 40, 0.10);
+    color: #F17228;
+}
+.card .topcard .pickup{
+    color: rgba(0, 0, 0, 0.7);
+}
+.delivery .bike{
+    color: #F17228  ;
+}
+.card .subcard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50%;
+    padding: 0px 25px;
+}
+.card .subcard .address {
+    padding: 10px 15px;
+    background: rgba(128, 128, 128, 0.1);
+    color: rgba(128, 128, 128, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 55%;
+}
+.card .subcard .address input{
+    border: none;
+    background: rgba(128, 128, 128, 0);
+}
+.card .subcard button{
+    background: linear-gradient(138deg, #FF7A7A 0%, #F65900 100%);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.imagebase img{
+    width: 250px;
+}

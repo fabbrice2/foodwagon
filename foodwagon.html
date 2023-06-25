@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodwagon.css">
+    <link rel="shortcut icon" href="images/Mask Group.jpg" type="image/x-icon">
+    <title>Food Wagon</title>
+</head>
+<body>
+   <section class="header">
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <div class="location">
+            <ul>
+                <li><strong>Deliver to:</strong></li>
+                <ion-icon class="ionicons" name="location"></ion-icon>
+                <li>Current Location <span><strong>Paris</strong></span></li>
+            </ul>
+        </div>
+        <div class="profil">
+            <div class="search">
+                <span><ion-icon class="ionicons" name="search"></ion-icon></span>
+                <input type="text" placeholder="Search food">
+            </div>
+            <div class="login">
+                <ion-icon class="ionicons" name="person"></ion-icon>
+                <span>Login</span>
+            </div>
+        </div>
+    </header>
+   </section>
+   <section class="subnav">
+    <div class="subnav_item">
+        <div class="title">
+            <h1><strong>Are you starving?</strong></h1>
+            <p>Within a few clicks, find meals that are accessible near you</p>
+            <div class="card">
+                <div class="topcard">
+                    <div class="delivery">
+                        <span><ion-icon class="bike" name="bicycle"></ion-icon></span>
+                        <span>Delivery</span>
+                    </div>
+                    <div class="pickup">
+                        <ion-icon class="icon" name="bag"></ion-icon>
+                        <span>Pickup</span>
+                    </div>
+                </div>
+                <div class="subcard">
+                    <div class="address">
+                        <ion-icon class="ionicons" name="location"></ion-icon>
+                        <input type="text" placeholder="Enter your Address">
+                    </div>
+                    <button>
+                        <ion-icon class="icon" name="search"></ion-icon>
+                        <span>Find Food</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="imagebase">
+            <img src="images/Image Base.png" alt="baseimg">
+        </div>
+    </div>
+</section>
+<section class="wrap">
+    <div class="soldfood">
+        <div class="food">
+            <div class="foodimg">
+                <div class="pecent">
+                    <span class="num">20</span>
+                    <span class="type">
+                        <span>%</span>
+                        <span>off</span>
+                    </span>
+                </div>
+            </div>
+            <div class="fooddescription">
+                <h1 class="title">Greys Vage</h1>
+                <div class="availablity">
+                    <span>6 Days Remaining</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+</section>
+
+    <style>
+        .wrap{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./foodwagon.js"></script>
+</body>
+</html>
