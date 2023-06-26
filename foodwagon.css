@@ -134,7 +134,7 @@ header .profil .login{
 .wrap{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 .wrap .soldfood{
     display: flex;
@@ -196,7 +196,7 @@ header .profil .login{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 0px 60px 0px;
+    padding: 15px 50px 0px;
     align-items: center;
     gap: 50px;
     background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0.00) 100%);
@@ -218,4 +218,227 @@ header .profil .login{
     align-items: center;
     text-align: center;
     gap: 25px;
+}
+.popular .caroussel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 50px 0px;
+}
+.arrow{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #FAAA01;
+    background: #FFB20E;
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    cursor: pointer;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.slide .slide_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.slide .hidden{
+    display: none;
+}
+.slide .slide_item .popular_item img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.popular_item{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.popular_item button{
+    display: flex;
+    border: none;
+    width: 100%;
+    padding: 10px 48px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--theme-warning, #F17228);
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24), 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+    cursor: pointer;
+}
+.popular_item .nalopr{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.nalopr .loc{
+    color: var(--theme-primary, #FFB30E);
+    display: flex;
+    align-items: center;
+}
+
+.restaurants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 50px 0px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.card_component{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_component .bgimg{
+    background-image: url(images/foodworld.png);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.card_component .bgimg .button{
+    display: flex;
+    gap: 10px;
+}
+.card_component .bgimg .promo, .time{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.promo{
+    background: #F17228;
+}
+.time{
+    background: var(--theme-primary, #FFB30E);
+}
+.card_component .note{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.card_component .note .resto_note span{
+    color: var(--theme-primary, #FFB30E);;
+}
+.card_component .status.close{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(241, 114, 40, 0.20);
+    color: #F17228;
+}
+.card_component .status.open{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(121, 185, 60, 0.20);
+    color: var(--theme-success, #79B93C);
+}
+.view{
+    display: flex;
+    padding: 15px 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(141deg, #FFBA26 0%, #FF9A0E 100%);
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    cursor: pointer;
+}
+.resto_note span{
+    display: flex;
+}
+.searchbyfood{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    background: #FEFAF1;
+}
+.searchbyfood_item{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 50px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.viewAll{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.viewAll span, .btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.viewAll span{
+    color: #FAAA01;
+    gap: 5px;
+}
+.foodimg{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.foodimg .foodimg_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.foodimg .foodimg_item img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
 }
